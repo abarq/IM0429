@@ -8,7 +8,8 @@ function Resultado = calcularEnergiaVolanteInercia(T)
 % manivela en rad.
 
 % SALIDA:
-% 1. energia: Escalar. Energia acumulada en el volante de inercia.
+% 1. Resultado: Estructura que contiene la energía acumulada y las energias
+%               acumulada por cada pulso.
 
 alfa = 0:0.1:359;
 alfar = alfa*pi/180;
