@@ -76,7 +76,7 @@ set(gca,'fontsize',13)
 fuerzasC = [Cx;Cy];
 fuerzasB = [Fp;N];
 arregloConCeros = zeros(1,length(alfa)); 
-fuerzasD = [arregloConCeros;-Dy];
+fuerzasD = [arregloConCeros;Dy];
 fuerzasCRot = zeros(2,length(alfa));
 fuerzasBRot = zeros(2,length(alfa));
 fuerzasDRot = zeros(2,length(alfa));
